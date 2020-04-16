@@ -3,13 +3,7 @@ Django (https://docs.djangoproject.com/) is a fantastic web framework that allow
 
 ## Notes
 
-'''
-$    # <- Bash
-=#   # <- Postgres
->>>  # <- Python
-'''
-
-Each line is prefixed by the environment you should run it in.
+Each line is prefixed by the environment you should run it in. A dollar (`$`) is Bash\shell\terminal. Triple greater-than (`>>>`) is the python shell (or the django shell). A hash (`#`) is the shell for Postgres. 
 
 '''
 $ something
