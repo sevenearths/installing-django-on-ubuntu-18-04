@@ -3,22 +3,22 @@ Django (https://docs.djangoproject.com/) is a fantastic web framework that allow
 
 ## Notes
 
-Each line is prefixed by the environment you should run it in. A dollar (`$`) is Bash\shell\terminal. Triple greater-than (`>>>`) is the python shell (or the django shell). A hash (`#`) is the shell for Postgres. 
+Each line is prefixed by the environment you should run it in. A dollar (`$`) is Bash\shell\terminal. Triple greater-than (`>>>`) is the python shell (or the django shell). A hash (`#`) is the shell for Postgres.
 
-'''
+```
 $ something
 $ something
 
 $ something else
-'''
+```
 
 Spaces (or 'new line spaces' if you like) exist between different bits of work (project setup, installing packages, apache, etc...)
 
-'''
+```
 
 ...
 
-'''
+```
 
 Dots with empty lines before and after indicate that this is not a necessary step but you might want to do it (They are found towards the bottom. E.g. setting up postgres (https://postgresql.org/), setting up certbot (https://certbot.eff.org/))
 
