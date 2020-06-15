@@ -27,7 +27,7 @@ Dots with empty lines before and after indicate that this is not a necessary ste
 ```
 $ sudo apt update
 $ sudo apt upgrade
-$ sudo apt install git apache2 python3-pip libapache2-mod-wsgi-py3
+$ sudo apt install git apache2 python3-pip libapache2-mod-wsgi-py3 libpq-dev
 $ dpkg -S mod_wsgi
 $ ps -e | grep apache
 $ sudo ufw allow 'Apache Full'
@@ -41,7 +41,7 @@ $ git config credential.helper store
 $ git pull origin master
 $ cd some_project
 $ cp settings.py.example settings.py
-$ python
+$ python3
 >>> import random, string
 >>> ''.join([random.SystemRandom().choice(string.ascii_letters + string.digits + string.punctuation) for _ in range(50)])
 ...
@@ -139,6 +139,7 @@ Enter name of role to add: db_user
 Shall the new role be a superuser? (y/n) n
 Shall the new role be allowed to create databases? (y/n) y
 Shall the new role be allowed to create more new roles? (y/n) n
+$ exit
 $ sudo -i -u postgres psql
 =# ALTER USER db_user WITH PASSWORD 'db_password';
 =# \q
