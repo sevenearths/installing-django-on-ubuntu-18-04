@@ -33,6 +33,8 @@ $ ps -e | grep apache
 $ sudo ufw allow 'Apache Full'
 
 $ cd /var/www/
+$ sudo mkdir some_project
+$ sudo chown local_user:local_user some_project
 $ git clone https://github.com/some_account/some_project.git
 $ cd django
 $ git config credential.helper store
