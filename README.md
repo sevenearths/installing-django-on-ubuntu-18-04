@@ -36,10 +36,10 @@ $ cd /var/www/
 $ sudo mkdir some_project
 $ sudo chown local_user:local_user some_project
 $ git clone https://github.com/some_account/some_project.git
-$ cd django
+$ cd some_project
 $ git config credential.helper store
 $ git pull origin master
-$ cd some_project/some_project/
+$ cd some_project
 $ cp settings.py.example settings.py
 $ python
 >>> import random, string
